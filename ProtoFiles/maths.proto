@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package maths;
+
+// The greeting service definition.
+service additionService {
+  // Sends a greeting
+  rpc Addtion (HelloRequest) returns (HelloReply) {}
+}
+
+// The request message containing the user's name.
+message OperandsRequest {
+  int32 var1 = 1;
+  int32 var2  = 2;
+}
+
+// The response message containing the greetings
+message OperandsReply {
+  int32 var1 = 1;
+  int32 var2  = 2;
+}

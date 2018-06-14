@@ -1,0 +1,6 @@
+{
+  "dbConnectionAddress":"mongodb://localhost:27017",
+  "database":"RahulTemp",
+  "collection":"Student",
+  "ProtoPath":"~/Dev/NodeJsPractice/ProtoFiles/"
+}
